@@ -1,0 +1,22 @@
+{
+  "name": "dil",
+  "version": "1.0.0",
+  "description": "liri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dil2000/liri-node-app.git"
+  },
+  "author": "dil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dil2000/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Dil2000/liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.5"
+  }
+}
