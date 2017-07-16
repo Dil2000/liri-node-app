@@ -21,7 +21,7 @@
 			name:'userChoice',
 			message: 'What is your preference',
 			type:'radio',
-			default:'movie-this',
+			default:'spotify-this-song',
 			choices:['my-tweets','spotify-this-song','movie-this','do-what-it-says']
 		}
 	];
@@ -82,7 +82,9 @@
 
     function findTwitter(){
 
-	   var Twitter = require('twitter');
+    	EnteredInTxt = false;
+
+	    var Twitter = require('twitter');
 
 	    var client = new Twitter({
 		    consumer_key: conKey ,
@@ -91,15 +93,36 @@
 		    access_token_secret: accSec
 	    });
 
-	    var params = {screen_name: 'nodejs'};
+		var params = {screen_name: 'NelumGT'};
 
-	    client.get('search/tweets',{q: 'node.js'},function(error,tweets,response){
-		  	if(!error){
-		  		console.log(tweets);
-		  	}
-		  	for (var i = 0 ; i < 20 ; i++){
-		  		console.log(JSON.stringify(response, null, 2));
-		  	}		  	
+	    var client = new Twitter({
+		    consumer_key: conKey ,
+		    consumer_secret: conSec,
+		    access_token_key: accTok,
+		    access_token_secret: accSec
+	    });
+		 
+		client.get('statuses/user_timeline', params, function(error, tweets, response) {
+		    if (!error) {
+
+		    	var twitterD = JSON.stringify(tweets, null,2);
+
+		    	var logArray = []; // for log.txt
+
+			  	for (var i = 0 ; i < 20 ; i++){
+			  		var twitterD = JSON.stringify(tweets, null,2);
+					var textName = JSON.parse(twitterD)[i].text;
+				  	console.log( (i+1) + " :   " + textName );
+				  	logArray.push( "\n" + (i+1) + "  : " + textName)
+				}
+
+				// Log details
+				var logTwitter =  "\n TWITTER DATA \n" + "----------------------\n" + logArray;
+				writeLogs(logTwitter);
+		    }
+		  else{
+				console.log("Twitter Error " + JSON.stringify(error, null, 2));
+			}		  	
 		});
 
 	}
@@ -108,9 +131,12 @@
 /******************************************************/
 /************  Get the Spotify details ****************/
 /******************************************************/
+
 	// Prompt for song
 	function enterSong(){
 
+		EnteredInTxt = false;
+		
 		inquirer.prompt([
 			{
 			    type: "input",
@@ -119,24 +145,18 @@
 			}
 		]).then(function(song) { 
 			var songName = song.songName;
-			var songName = JSON.stringify(songName, null, 2);
-			if (songName != null){
-				if (EnteredInTxt === false){
-					findSpotify(songName);
-				}
-				else{
-					findSpotify(globalTxtValue);
-				}
-			}			
+			songName = JSON.stringify(songName, null, 2);
+			findSpotify(songName)
+				
 		})
 		.catch(function(err) {
 		    console.log(err)
 		});
-	}
+    }
+
 
 	// Find the song details in spotify
 	function findSpotify(specificName){
-		console.log(specificName);
 
 		var clientId = keys.spotifyKeys.Client_ID;
 		var clientSecret = keys.spotifyKeys.Client_Secret;
@@ -148,15 +168,39 @@
 			secret: clientSecret
 		});
 
-		if (specificName == 'undefined' || specificName == null) {
-	  		specificName = "Mr Nobody";
-	  	}	
-
-		spotify.search({type: 'track' , query: 'all the small'}, function(error,data,response){
+		spotify.search({type: 'track' , query: specificName}, function(error,data,response){
 			if (error){
 				return console.log('Spotify Error : ' + error);
 			}
-			console.log(JSON.stringify(data, null, 2));
+			else{
+				console.log(">>>>>>>>> " + JSON.parse(JSON.stringify(data)));
+
+				if (data == null || data == undefined){
+					console.log("Couldn't find data");
+				}
+				else{
+					var spotifyData = JSON.parse(JSON.stringify(data)).tracks;
+					spotifyData = JSON.parse(JSON.stringify(spotifyData,null,2)).items[0];
+					spotifyData = JSON.parse(JSON.stringify(spotifyData,null,2)).album;		
+
+					// Find Artist
+					var artists = JSON.parse(JSON.stringify(spotifyData,null,2)).artists;
+					artists = JSON.parse(JSON.stringify(artists[0],null,2)).name;
+					artist = JSON.stringify(artists,null,2);
+
+					var previewLink = JSON.parse(JSON.stringify(spotifyData,null,2)).href;
+					var albumName = JSON.parse(JSON.stringify(spotifyData,null,2)).name;
+
+					var copyData = "\n SPOTYFY DATA \n" + "----------------------\n" +
+						"Artist Name  :   " + artist + "\n" +
+						"Song Name    :   " + specificName + "\n" +
+						"Preview Link :   " + previewLink + "\n" +
+						"Album Name   :   " + albumName + "\n";
+
+					console.log(copyData);
+					writeLogs(copyData);
+				}
+			}
 		});
 
 	};
@@ -170,6 +214,8 @@
 	// Prompt for Movie Details
 	function enterMovieName(){
 
+		EnteredInTxt = false;
+
 		inquirer.prompt([
 			{
 			    type: "input",
@@ -179,7 +225,6 @@
 		]).then(function(movie) { 
 			var movieName = movie.movieName;
 			var movieName = JSON.stringify(movieName, null, 2);
-			//console.log(">>>>>>>" + JSON.stringify(songName, null, 2));
 			if (movieName != null){
 				findMovie(movieName);
 			}			
@@ -191,8 +236,8 @@
 
 	// Find Movie details
 	function findMovie(movieName){
-	  	console.log("specif : " + movieName);
-	  	if (movieName == 'undefined' || movieName == null) {
+
+	  	if (movieName == undefined || movieName == null) {
 	  		movieName = "Mr Nobody";
 	  	}
 
@@ -209,16 +254,39 @@
 		    }
 
 		    if(response.statusCode === 200){
-		  	  	console.log("Title of the Movie : " + JSON.parse(body).Title);
-		  	  	console.log("Year : " + JSON.parse(body).Year);
-		  	  	console.log("IMDB Rating : " + JSON.parse(body).imdbRating);
-		  	  	//console.log("Rotton Tomatoes Rating : " + JSON.parse(body).Ratings[1]; // Ratings: [{},{Source:'',Value:''}]
-		  	  	console.log("County where the movie was produced : " + JSON.parse(body).Country);
-		  	  	console.log("Language of the Movie : " + JSON.parse(body).Language);
-		  	  	console.log("Plot of the Movie : " + JSON.parse(body).Plot);
-		  	  	console.log("Actors of the Movie : " + JSON.parse(body).Actors);
-		    }
 
+		  	  	var rottenTomatoes = JSON.parse(body).Ratings;
+		  	  	console.log(rottenTomatoes);
+		  	  	if (rottenTomatoes == undefined){
+		  	  		rottenTomatoes = "Not Available";			  	  	
+			  	}
+			  	else{
+			  		if (rottenTomatoes[1] == null){
+			  	  		console.log("null");
+			  	  		rottenTomatoes = "Not Available";
+			  	  	}
+			  	  	else{
+				  	  	rottenTomatoes = JSON.parse(JSON.stringify(rottenTomatoes[1],null,2)).Value;
+				  	  	rottenTomatoes = JSON.stringify(rottenTomatoes,null,2);
+			  	  	}
+			  	}
+
+		  	  	var movieData = "\n OMDB DATA \n" + "----------------------\n" +
+					"Title of the Movie     :   " + JSON.parse(body).Title + "\n" +
+					"Year                   :   " + JSON.parse(body).Year + "\n" +
+					"IMDB Rating            :   " + JSON.parse(body).imdbRating + "\n" +
+					"Rotton Tomatoes Rating :   " + rottenTomatoes + "\n" +
+					"County movie produced  :   " + JSON.parse(body).Country + "\n" +
+					"Language               :   " + JSON.parse(body).Language + "\n" +
+					"Plot of the movie      :   " + JSON.parse(body).Plot + "\n" +
+					"Actors                 :   " + JSON.parse(body).Actors + "\n";
+
+		  	  	writeLogs(movieData);
+		  	  	console.log(movieData);
+		    }
+		    else{
+		    	console.log("Couldnt find the Movie");
+		    }
 	  	});
 	};
 
@@ -249,8 +317,33 @@
 
 		});
 
-
 	}
 
 	
-	
+	/******************************************************/
+	/************  Write Logs to log.txt ******************/
+	/******************************************************/
+
+	function writeLogs(data){
+
+		var fs = require("fs");
+
+		// We then store the textfile filename given to us from the command line
+		var textFile = data;
+
+		// We then append the contents "Hello Kitty" into the file
+		// If the file didn't exist then it gets created on the fly.
+		var AddingtoLog = " \n\n /**********************************************************/ " 
+						+ "\n\n\n\n" +  data;	
+
+		fs.appendFile("log.txt", AddingtoLog , function(err) {
+
+		    if (err) { 
+		    	console.log(err);
+		    }
+		    else {
+		   		console.log("Content Added!");
+		    }
+        });
+
+	}

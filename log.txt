@@ -1,0 +1,53 @@
+ / **********************************************************/ 
+
+
+
+
+ TWITTER DATA 
+----------------------
+
+1  : Stop texting me in the middle of texting you... now I have to change my text. - https://t.co/IGIoJs4STc,
+2  : I hate mosquitoes. I mean, I know I am delicious, but I don't give out free samples. - https://t.co/IGIoJs4STc,
+3  : You can only be young once. But you can always be immature. - https://t.co/IGIoJs4STc,
+4  : Taking a shower is awesome, it makes you feel clean, makes you sound like a great singer, and helps you make all of life's decisions.,
+5  : It may look like I'm doing nothing, but in my head I'm quite busy. - https://t.co/IGIoJs4STc,
+6  : No matter how smart you are you can never convince someone stupid that they are stupid. - https://t.co/IGIoJs4STc,
+7  : A balanced diet means a cupcake in each hand. - https://t.co/IGIoJs4STc,
+8  : I'm not clumsy! The floor just hates me, the table and chairs are bullies, and the walls get in my way. - https://t.co/IGIoJs4STc,
+9  : Some days I wish I had the wisdom of a 90 year old, the body of a 20 year old, and the energy of a 3 year old. - https://t.co/IGIoJs4STc,
+10  : Silence is golden, unless you have kids, then silence is just plain suspicious. - https://t.co/IGIoJs4STc,
+11  : I know the voices in my head aren't real..... but sometimes their ideas are just absolutely awesome! - https://t.co/IGIoJs4STc,
+12  : When a door closes another door should open, but if it doesn't then go in through the window. - https://t.co/IGIoJs4STc,
+13  : matakada apa neth katha kalaaa,
+14  : Maga thora athi neth rahas wasa,
+15  : Sithum wihanga kala wasanga kala,
+16  : Pipuna Malaka Suda Dasa WAsa,
+17  : RT @Earth_Pics: Pallas's cat https://t.co/YhQ2T6JjTT,
+18  : Testing NnnnnnnoooooooooooooooooddddDDDDEEEEEEeeeeeeeeeeeeeeee,
+19  : RT @awkwardposts: My life: https://t.co/FUQ4jHIbLj,
+20  : RT @awkwardposts: when you need an extra 5 words for your 1000 word essay... https://t.co/9zWUiGPrSq / **********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Shakira"
+Song Name    :   "waka"
+Preview Link :   https://api.spotify.com/v1/albums/3pzQF7YgU1f66pBayA8uHv
+Album Name   :   Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup (TM) Song)
+ / **********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   Trolls
+Year                   :   2016
+IMDB Rating            :   6.5
+Rotton Tomatoes Rating :   "74%"
+County movie produced  :   USA
+Language               :   English
+Plot of the movie      :   After the Bergens invade Troll Village, Poppy, the happiest Troll ever born, and the curmudgeonly Branch set off on a journey to rescue her friends.
+Actors                 :   Anna Kendrick, Justin Timberlake, Zooey Deschanel, Christopher Mintz-Plasse
