@@ -2,7 +2,7 @@
   "name": "dil",
   "version": "1.0.0",
   "description": "liri",
-  "main": "index.js",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/Dil2000/liri-node-app#readme",
   "dependencies": {
-    "node-spotify-api": "^1.0.5"
-  }
+    "enquirer": "^1.0.2",
+    "inquirer": "^3.2.0",
+    "node-spotify-api": "^1.0.5",
+    "prompt-radio": "^1.2.1",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
 }
