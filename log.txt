@@ -51,3 +51,214 @@ County movie produced  :   USA
 Language               :   English
 Plot of the movie      :   After the Bergens invade Troll Village, Poppy, the happiest Troll ever born, and the curmudgeonly Branch set off on a journey to rescue her friends.
 Actors                 :   Anna Kendrick, Justin Timberlake, Zooey Deschanel, Christopher Mintz-Plasse
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Backstreet Boys"
+Song Name    :   "I Want it That Way"
+Preview Link :   https://api.spotify.com/v1/albums/1NslKOZobWxINFaFkLol3r
+Album Name   :   The Hits--Chapter One
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Shakira"
+Song Name    :   "waka"
+Preview Link :   https://api.spotify.com/v1/albums/3pzQF7YgU1f66pBayA8uHv
+Album Name   :   Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup (TM) Song)
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Kaoma"
+Song Name    :   "lambada"
+Preview Link :   https://api.spotify.com/v1/albums/0Lku5Y0I5aGcRSgeo2mOJm
+Album Name   :   Lambada (Les originaux - Les N° 1 de l'été)
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Backstreet Boys"
+Song Name    :   "I Want it That Way"
+Preview Link :   https://api.spotify.com/v1/albums/1NslKOZobWxINFaFkLol3r
+Album Name   :   The Hits--Chapter One
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "James Bay"
+Song Name    :   "let it go"
+Preview Link :   https://api.spotify.com/v1/albums/5BxvswQSGWrBbVCdx6mFGO
+Album Name   :   Chaos And The Calm
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Enrique Iglesias"
+Song Name    :   "bailamos"
+Preview Link :   https://api.spotify.com/v1/albums/183XphT974zDxwM5QxETET
+Album Name   :   Enrique
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Harry Styles"
+Song Name    :   The Sign
+Preview Link :   https://api.spotify.com/v1/albums/6YDkzHVTEzMXZOVd1r5NqR
+Album Name   :   Sign of the Times
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Harry Styles"
+Song Name    :   The Sign
+Preview Link :   https://api.spotify.com/v1/albums/6YDkzHVTEzMXZOVd1r5NqR
+Album Name   :   Sign of the Times
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Harry Styles"
+Song Name    :   The Sign
+Preview Link :   https://api.spotify.com/v1/albums/6YDkzHVTEzMXZOVd1r5NqR
+Album Name   :   Sign of the Times
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Ace of Base"
+Song Name    :   The Sign Ace of Base
+Preview Link :   https://api.spotify.com/v1/albums/5UwIyIyFzkM7wKeGtRJPgB
+Album Name   :   The Sign (US Album) [Remastered]
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Ace of Base"
+Song Name    :   The Sign Ace of Base
+Preview Link :   https://api.spotify.com/v1/albums/5UwIyIyFzkM7wKeGtRJPgB
+Album Name   :   The Sign (US Album) [Remastered]
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   Mr. Nobody
+Year                   :   2009
+IMDB Rating            :   7.9
+Rotton Tomatoes Rating :   "64%"
+County movie produced  :   Belgium, Germany, Canada, France, USA, UK
+Language               :   English, Mohawk
+Plot of the movie      :   A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors                 :   Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham

@@ -28,9 +28,7 @@
 
 	enquirer.ask(questions)
 		.then(function(answers){
-
 			var justAnswer = answers.userChoice;
-
 			findSearch(justAnswer); // goto the swith for further processings
 		})
 		.catch(function(err) {
@@ -76,13 +74,7 @@
     var accTok = keys.twitterKeys.access_token_key;
     var accSec = keys.twitterKeys.access_token_secret;
 
-    /*console.log("Consumer Key : " + conKey + " | Consumer Secret : " + keys.twitterKeys.consumer_secret +
-    " | Access Token Key : " + keys.twitterKeys.access_token_key + 
-    " | Access Token Sectret : " + keys.twitterKeys.access_token_secret);*/
-
     function findTwitter(){
-
-    	EnteredInTxt = false;
 
 	    var Twitter = require('twitter');
 
@@ -120,7 +112,7 @@
 				var logTwitter =  "\n TWITTER DATA \n" + "----------------------\n" + logArray;
 				writeLogs(logTwitter);
 		    }
-		  else{
+		    else{
 				console.log("Twitter Error " + JSON.stringify(error, null, 2));
 			}		  	
 		});
@@ -134,24 +126,33 @@
 
 	// Prompt for song
 	function enterSong(){
-
-		EnteredInTxt = false;
-		
-		inquirer.prompt([
-			{
-			    type: "input",
-			    name: "songName",
-			    message: "Enter a song Name : "
-			}
-		]).then(function(song) { 
-			var songName = song.songName;
-			songName = JSON.stringify(songName, null, 2);
-			findSpotify(songName)
-				
-		})
-		.catch(function(err) {
-		    console.log(err)
-		});
+		if (EnteredInTxt === true){
+			findSpotify(globalTxtValue);
+			return;
+		}
+		else{
+			inquirer.prompt([
+				{
+				    type: "input",
+				    name: "songName",
+				    message: "Enter a song Name : "
+				}
+			]).then(function(song) { 
+				var songName = song.songName;
+				songName = JSON.stringify(songName, null, 2);
+				var songArray = [];
+				songArray = songName;
+				if (songArray.length === 2 ){
+					findSpotify("The Sign Ace of Base");
+				}
+				else{
+					findSpotify(songName);
+				}
+			})
+			.catch(function(err) {
+			    console.log(err)
+			});
+		}
     }
 
 
@@ -173,8 +174,8 @@
 				return console.log('Spotify Error : ' + error);
 			}
 			else{
-				console.log(">>>>>>>>> " + JSON.parse(JSON.stringify(data)));
 
+  				// If the perticular record does not excists
 				if (data == null || data == undefined){
 					console.log("Couldn't find data");
 				}
@@ -225,8 +226,13 @@
 		]).then(function(movie) { 
 			var movieName = movie.movieName;
 			var movieName = JSON.stringify(movieName, null, 2);
-			if (movieName != null){
-				findMovie(movieName);
+			var movieArray = [];
+			movieArray = movieName;
+			if (movieArray.length === 2 ){
+				findMovie("Mr Nobody");
+			}
+			else{
+				findMovie(movie);
 			}			
 		})
 		.catch(function(err) {
@@ -309,8 +315,6 @@
 			data = data.split(",");
 
 			type = data[0];
-			specificName = data[1];
-			console.log(">>>>>>>>>>> " + data[0] + "  " + data[1]);
 			EnteredInTxt = true;
 			globalTxtValue = data[1];
 			findSearch(data[0]);
@@ -327,23 +331,20 @@
 	function writeLogs(data){
 
 		var fs = require("fs");
-
-		// We then store the textfile filename given to us from the command line
 		var textFile = data;
 
-		// We then append the contents "Hello Kitty" into the file
-		// If the file didn't exist then it gets created on the fly.
 		var AddingtoLog = " \n\n /**********************************************************/ " 
 						+ "\n\n\n\n" +  data;	
 
 		fs.appendFile("log.txt", AddingtoLog , function(err) {
 
 		    if (err) { 
-		    	console.log(err);
+		    	console.log("Error in Logging Data function : " + err);
 		    }
 		    else {
 		   		console.log("Content Added!");
 		    }
         });
 
+		EnteredInTxt = false;
 	}
