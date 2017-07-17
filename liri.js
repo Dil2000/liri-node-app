@@ -214,30 +214,34 @@
 
 	// Prompt for Movie Details
 	function enterMovieName(){
+		if (EnteredInTxt === true){
+			findMovie(globalTxtValue);
+			return;
+		}
+		else{
 
-		EnteredInTxt = false;
-
-		inquirer.prompt([
-			{
-			    type: "input",
-			    name: "movieName",
-			    message: "Enter a Movie Name : "
-			}
-		]).then(function(movie) { 
-			var movieName = movie.movieName;
-			var movieName = JSON.stringify(movieName, null, 2);
-			var movieArray = [];
-			movieArray = movieName;
-			if (movieArray.length === 2 ){
-				findMovie("Mr Nobody");
-			}
-			else{
-				findMovie(movie);
-			}			
-		})
-		.catch(function(err) {
-		    console.log(err)
-		});
+			inquirer.prompt([
+				{
+				    type: "input",
+				    name: "movieName",
+				    message: "Enter a Movie Name : "
+				}
+			]).then(function(movie) { 
+				var movieName = movie.movieName;
+				var movieName = JSON.stringify(movieName, null, 2);
+				var movieArray = [];
+				movieArray = movieName;
+				if (movieArray.length === 2 ){
+					findMovie("Mr Nobody");
+				}
+				else{
+					findMovie(movieName);
+				}			
+			})
+			.catch(function(err) {
+			    console.log(err)
+			});
+		}
 	}
 
 	// Find Movie details
@@ -260,7 +264,6 @@
 		    }
 
 		    if(response.statusCode === 200){
-
 		  	  	var rottenTomatoes = JSON.parse(body).Ratings;
 		  	  	console.log(rottenTomatoes);
 		  	  	if (rottenTomatoes == undefined){
@@ -276,7 +279,6 @@
 				  	  	rottenTomatoes = JSON.stringify(rottenTomatoes,null,2);
 			  	  	}
 			  	}
-
 		  	  	var movieData = "\n OMDB DATA \n" + "----------------------\n" +
 					"Title of the Movie     :   " + JSON.parse(body).Title + "\n" +
 					"Year                   :   " + JSON.parse(body).Year + "\n" +
