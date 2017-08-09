@@ -27,25 +27,29 @@ Use arrow keys and space bar to select the option
 
 #### My-tweets :newspaper:
 
-Will show my last 20 tweets. 
+Will show my last 20 tweets.
+ 
 ![Image2](images/2.png "Image 2") 
 
 
 #### Spotify data from Spotify API. :notes:
 
 Name a song and it will display song details.
+
 ![Image3](images/3.png "Image 3") 
 
 
 #### Movie this. :movie_camera:
 
 This option will give movie details after entering a name of a movie.
+
 ![Image4](images/4.png "Image 4") 
 
 
 ##### Do What it says :book:
 
 For this option the app search for the conditions in random.txt and provide the response according to that. User has no control over that option.
+
 ![Image5](images/5.png "Image 5") 
 
 
