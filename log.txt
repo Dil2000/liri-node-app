@@ -1,4 +1,6 @@
- / **********************************************************/ 
+ 
+
+ /**********************************************************/ 
 
 
 
@@ -25,18 +27,45 @@
 17  : RT @Earth_Pics: Pallas's cat https://t.co/YhQ2T6JjTT,
 18  : Testing NnnnnnnoooooooooooooooooddddDDDDEEEEEEeeeeeeeeeeeeeeee,
 19  : RT @awkwardposts: My life: https://t.co/FUQ4jHIbLj,
-20  : RT @awkwardposts: when you need an extra 5 words for your 1000 word essay... https://t.co/9zWUiGPrSq / **********************************************************/ 
+20  : RT @awkwardposts: when you need an extra 5 words for your 1000 word essay... https://t.co/9zWUiGPrSq 
+
+ /**********************************************************/ 
 
 
 
 
  SPOTYFY DATA 
 ----------------------
-Artist Name  :   "Shakira"
-Song Name    :   "waka"
-Preview Link :   https://api.spotify.com/v1/albums/3pzQF7YgU1f66pBayA8uHv
-Album Name   :   Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup (TM) Song)
- / **********************************************************/ 
+Artist Name  :   "Elton John"
+Song Name    :   "candle in the wind"
+Preview Link :   https://api.spotify.com/v1/albums/5WupqgR68HfuHt3BMJtgun
+Album Name   :   Goodbye Yellow Brick Road (40th Anniversary Celebration)
+ 
+
+ /**********************************************************/ 
+
+
+
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
 
 
 
@@ -58,193 +87,16 @@ Actors                 :   Anna Kendrick, Justin Timberlake, Zooey Deschanel, Ch
 
 
 
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Backstreet Boys"
-Song Name    :   "I Want it That Way"
-Preview Link :   https://api.spotify.com/v1/albums/1NslKOZobWxINFaFkLol3r
-Album Name   :   The Hits--Chapter One
- 
-
- /**********************************************************/ 
-
-
-
-
  OMDB DATA 
 ----------------------
-Title of the Movie     :   undefined
-Year                   :   undefined
-IMDB Rating            :   undefined
+Title of the Movie     :   Notebook
+Year                   :   2006
+IMDB Rating            :   7.1
 Rotton Tomatoes Rating :   Not Available
-County movie produced  :   undefined
-Language               :   undefined
-Plot of the movie      :   undefined
-Actors                 :   undefined
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Shakira"
-Song Name    :   "waka"
-Preview Link :   https://api.spotify.com/v1/albums/3pzQF7YgU1f66pBayA8uHv
-Album Name   :   Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup (TM) Song)
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Kaoma"
-Song Name    :   "lambada"
-Preview Link :   https://api.spotify.com/v1/albums/0Lku5Y0I5aGcRSgeo2mOJm
-Album Name   :   Lambada (Les originaux - Les N° 1 de l'été)
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Backstreet Boys"
-Song Name    :   "I Want it That Way"
-Preview Link :   https://api.spotify.com/v1/albums/1NslKOZobWxINFaFkLol3r
-Album Name   :   The Hits--Chapter One
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "James Bay"
-Song Name    :   "let it go"
-Preview Link :   https://api.spotify.com/v1/albums/5BxvswQSGWrBbVCdx6mFGO
-Album Name   :   Chaos And The Calm
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Enrique Iglesias"
-Song Name    :   "bailamos"
-Preview Link :   https://api.spotify.com/v1/albums/183XphT974zDxwM5QxETET
-Album Name   :   Enrique
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Harry Styles"
-Song Name    :   The Sign
-Preview Link :   https://api.spotify.com/v1/albums/6YDkzHVTEzMXZOVd1r5NqR
-Album Name   :   Sign of the Times
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Harry Styles"
-Song Name    :   The Sign
-Preview Link :   https://api.spotify.com/v1/albums/6YDkzHVTEzMXZOVd1r5NqR
-Album Name   :   Sign of the Times
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Harry Styles"
-Song Name    :   The Sign
-Preview Link :   https://api.spotify.com/v1/albums/6YDkzHVTEzMXZOVd1r5NqR
-Album Name   :   Sign of the Times
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Ace of Base"
-Song Name    :   The Sign Ace of Base
-Preview Link :   https://api.spotify.com/v1/albums/5UwIyIyFzkM7wKeGtRJPgB
-Album Name   :   The Sign (US Album) [Remastered]
- 
-
- /**********************************************************/ 
-
-
-
-
- OMDB DATA 
-----------------------
-Title of the Movie     :   undefined
-Year                   :   undefined
-IMDB Rating            :   undefined
-Rotton Tomatoes Rating :   Not Available
-County movie produced  :   undefined
-Language               :   undefined
-Plot of the movie      :   undefined
-Actors                 :   undefined
- 
-
- /**********************************************************/ 
-
-
-
-
- SPOTYFY DATA 
-----------------------
-Artist Name  :   "Ace of Base"
-Song Name    :   The Sign Ace of Base
-Preview Link :   https://api.spotify.com/v1/albums/5UwIyIyFzkM7wKeGtRJPgB
-Album Name   :   The Sign (US Album) [Remastered]
- 
-
- /**********************************************************/ 
-
-
-
-
- OMDB DATA 
-----------------------
-Title of the Movie     :   undefined
-Year                   :   undefined
-IMDB Rating            :   undefined
-Rotton Tomatoes Rating :   Not Available
-County movie produced  :   undefined
-Language               :   undefined
-Plot of the movie      :   undefined
-Actors                 :   undefined
+County movie produced  :   India
+Language               :   Malayalam
+Plot of the movie      :   Three teenage girls in boarding school invite serious trouble when one of them gets pregnant.
+Actors                 :   Roma, Mariya Roy, Parvathy, Sooraj
  
 
  /**********************************************************/ 
@@ -262,3 +114,361 @@ County movie produced  :   Belgium, Germany, Canada, France, USA, UK
 Language               :   English, Mohawk
 Plot of the movie      :   A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors                 :   Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Backstreet Boys"
+Song Name    :   "I Want it That Way"
+Preview Link :   https://api.spotify.com/v1/albums/1NslKOZobWxINFaFkLol3r
+Album Name   :   The Hits--Chapter One
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Ace of Base"
+Song Name    :   The Sign Ace of Base
+Preview Link :   https://api.spotify.com/v1/albums/5UwIyIyFzkM7wKeGtRJPgB
+Album Name   :   The Sign (US Album) [Remastered]
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   Frozen
+Year                   :   2013
+IMDB Rating            :   7.5
+Rotton Tomatoes Rating :   "89%"
+County movie produced  :   USA
+Language               :   English, Icelandic
+Plot of the movie      :   When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+Actors                 :   Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ TWITTER DATA 
+----------------------
+
+1  : Stop texting me in the middle of texting you... now I have to change my text. - https://t.co/IGIoJs4STc,
+2  : I hate mosquitoes. I mean, I know I am delicious, but I don't give out free samples. - https://t.co/IGIoJs4STc,
+3  : You can only be young once. But you can always be immature. - https://t.co/IGIoJs4STc,
+4  : Taking a shower is awesome, it makes you feel clean, makes you sound like a great singer, and helps you make all of life's decisions.,
+5  : It may look like I'm doing nothing, but in my head I'm quite busy. - https://t.co/IGIoJs4STc,
+6  : No matter how smart you are you can never convince someone stupid that they are stupid. - https://t.co/IGIoJs4STc,
+7  : A balanced diet means a cupcake in each hand. - https://t.co/IGIoJs4STc,
+8  : I'm not clumsy! The floor just hates me, the table and chairs are bullies, and the walls get in my way. - https://t.co/IGIoJs4STc,
+9  : Some days I wish I had the wisdom of a 90 year old, the body of a 20 year old, and the energy of a 3 year old. - https://t.co/IGIoJs4STc,
+10  : Silence is golden, unless you have kids, then silence is just plain suspicious. - https://t.co/IGIoJs4STc,
+11  : I know the voices in my head aren't real..... but sometimes their ideas are just absolutely awesome! - https://t.co/IGIoJs4STc,
+12  : When a door closes another door should open, but if it doesn't then go in through the window. - https://t.co/IGIoJs4STc,
+13  : matakada apa neth katha kalaaa,
+14  : Maga thora athi neth rahas wasa,
+15  : Sithum wihanga kala wasanga kala,
+16  : Pipuna Malaka Suda Dasa WAsa,
+17  : RT @Earth_Pics: Pallas's cat https://t.co/YhQ2T6JjTT,
+18  : Testing NnnnnnnoooooooooooooooooddddDDDDEEEEEEeeeeeeeeeeeeeeee,
+19  : RT @awkwardposts: My life: https://t.co/FUQ4jHIbLj,
+20  : RT @awkwardposts: when you need an extra 5 words for your 1000 word essay... https://t.co/9zWUiGPrSq 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   Siri Raja Siri
+Year                   :   2008
+IMDB Rating            :   7.0
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   Sri Lanka
+Language               :   Sinhalese
+Plot of the movie      :   A poor student from a village in Sri Lanka is sent to a wealthy school in the country's capital city.
+Actors                 :   Akhila Dhanuddhara, Dilhani Ekanayake, Senali. Fonseka, Kokila Jayasuriya
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   Matrix
+Year                   :   1993–
+IMDB Rating            :   8.4
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   Canada
+Language               :   English
+Plot of the movie      :   Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix "dies" and finds ...
+Actors                 :   Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Luis Fonsi"
+Song Name    :   "despacito"
+Preview Link :   https://api.spotify.com/v1/albums/3Gq2Dme9nesdgoqNNlcN8O
+Album Name   :   Despacito Feat. Justin Bieber (Remix)
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Drake"
+Song Name    :   "gone"
+Preview Link :   https://api.spotify.com/v1/albums/61NNWRxokNUQx0aYysBL76
+Album Name   :   So Far Gone
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   The Matrix
+Year                   :   1999
+IMDB Rating            :   8.7
+Rotton Tomatoes Rating :   "87%"
+County movie produced  :   USA
+Language               :   English
+Plot of the movie      :   A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors                 :   Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   undefined
+Song Name    :   "lambada"
+Preview Link :   https://api.spotify.com/v1/albums/0Lku5Y0I5aGcRSgeo2mOJm
+Album Name   :   Lambada (Les originaux - Les N° 1 de l'été)
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   undefined
+Song Name    :   "ahasa se oba"
+Preview Link :   https://api.spotify.com/v1/albums/3v6zrHNT2bHALJyqrSQ1D1
+Album Name   :   Adaraye Wedanawa
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   undefined
+Song Name    :   "shape of you"
+Preview Link :   https://api.spotify.com/v1/albums/7oJa8bPFKVbq4c7NswXHw8
+Album Name   :   Shape of You
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Nanda Malini"
+Song Name    :   "ahasa se oba"
+Preview Link :   https://api.spotify.com/v1/albums/3v6zrHNT2bHALJyqrSQ1D1
+Album Name   :   Adaraye Wedanawa
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ TWITTER DATA 
+----------------------
+
+1  : Stop texting me in the middle of texting you... now I have to change my text. - https://t.co/IGIoJs4STc,
+2  : I hate mosquitoes. I mean, I know I am delicious, but I don't give out free samples. - https://t.co/IGIoJs4STc,
+3  : You can only be young once. But you can always be immature. - https://t.co/IGIoJs4STc,
+4  : Taking a shower is awesome, it makes you feel clean, makes you sound like a great singer, and helps you make all of life's decisions.,
+5  : It may look like I'm doing nothing, but in my head I'm quite busy. - https://t.co/IGIoJs4STc,
+6  : No matter how smart you are you can never convince someone stupid that they are stupid. - https://t.co/IGIoJs4STc,
+7  : A balanced diet means a cupcake in each hand. - https://t.co/IGIoJs4STc,
+8  : I'm not clumsy! The floor just hates me, the table and chairs are bullies, and the walls get in my way. - https://t.co/IGIoJs4STc,
+9  : Some days I wish I had the wisdom of a 90 year old, the body of a 20 year old, and the energy of a 3 year old. - https://t.co/IGIoJs4STc,
+10  : Silence is golden, unless you have kids, then silence is just plain suspicious. - https://t.co/IGIoJs4STc,
+11  : I know the voices in my head aren't real..... but sometimes their ideas are just absolutely awesome! - https://t.co/IGIoJs4STc,
+12  : When a door closes another door should open, but if it doesn't then go in through the window. - https://t.co/IGIoJs4STc,
+13  : matakada apa neth katha kalaaa,
+14  : Maga thora athi neth rahas wasa,
+15  : Sithum wihanga kala wasanga kala,
+16  : Pipuna Malaka Suda Dasa WAsa,
+17  : RT @Earth_Pics: Pallas's cat https://t.co/YhQ2T6JjTT,
+18  : Testing NnnnnnnoooooooooooooooooddddDDDDEEEEEEeeeeeeeeeeeeeeee,
+19  : RT @awkwardposts: My life: https://t.co/FUQ4jHIbLj,
+20  : RT @awkwardposts: when you need an extra 5 words for your 1000 word essay... https://t.co/9zWUiGPrSq 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "Various Artists"
+Song Name    :   "get back up again"
+Preview Link :   https://api.spotify.com/v1/albums/65ayND23IInUPHJKsaAqe7
+Album Name   :   TROLLS (Original Motion Picture Soundtrack)
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ SPOTYFY DATA 
+----------------------
+Artist Name  :   "The Weeknd"
+Song Name    :   "starboy"
+Preview Link :   https://api.spotify.com/v1/albums/2ODvWsOgouMbaA5xf0RkJe
+Album Name   :   Starboy
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   Troll
+Year                   :   1986
+IMDB Rating            :   4.3
+Rotton Tomatoes Rating :   "25%"
+County movie produced  :   USA, Italy
+Language               :   English
+Plot of the movie      :   A wicked troll king in search of a mystical ring that will return him to his human form invades a San Francisco apartment complex where a powerful witch lives.
+Actors                 :   Noah Hathaway, Michael Moriarty, Shelley Hack, Jenny Beck
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   undefined
+Year                   :   undefined
+IMDB Rating            :   undefined
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   undefined
+Language               :   undefined
+Plot of the movie      :   undefined
+Actors                 :   undefined
+ 
+
+ /**********************************************************/ 
+
+
+
+
+ OMDB DATA 
+----------------------
+Title of the Movie     :   The Drummer's Note Book
+Year                   :   1913
+IMDB Rating            :   N/A
+Rotton Tomatoes Rating :   Not Available
+County movie produced  :   USA
+Language               :   English
+Plot of the movie      :   Chester is visiting his sweetheart Pearl. While he was on his way to her house he picked up in the street a note-book, evidently dropped by some passerby. As he was putting on his overcoat,...
+Actors                 :   Pearl White, Chester Barnett, Violet Mersereau
